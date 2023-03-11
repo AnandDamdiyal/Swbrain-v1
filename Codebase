@@ -1,0 +1,30 @@
+Swbrain v1/
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── models/
+├── notebooks/
+│   ├── data_exploration.ipynb
+│   ├── brain_simulation.ipynb
+│   └── model_training.ipynb
+├── src/
+│   ├── data/
+│   │   ├── dataset.py
+│   │   ├── preprocess.py
+│   │   └── model_data.py
+│   ├── models/
+│   │   ├── neural_networks.py
+│   │   ├── markov_models.py
+│   │   ├── hidden_markov_models.py
+│   │   ├── autoencoders.py
+│   │   └── pca.py
+│   ├── analysis/
+│   │   ├── spectral_analysis.py
+│   │   ├── statistical_analysis.py
+│   │   └── graph_analysis.py
+│   ├── utils/
+│   │   ├── data_utils.py
+│   │   └── model_utils.py
+│   ├── brain_simulation.py
+│   └── model_training.py
+└── requirements.txt
