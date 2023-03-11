@@ -84,4 +84,12 @@ class BrainSimulation:
         Returns:
         - accuracy (float): Classification accuracy of the Hidden Markov Model.
         """
-       
+        # predict using the fitted HMM model
+    predicted_states = model.predict(X_test)
+    
+    # calculate classification accuracy
+    accuracy = accuracy_score(y_test, predicted_states)
+    
+    # return the classification accuracy
+    return accuracy
+   
